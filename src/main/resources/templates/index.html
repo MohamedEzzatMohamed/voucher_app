@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher Home</title>
+</head>
+<body>
+<a href="/showCreateVouchers">Create new voucher</a><br>
+<a href="/showGetVoucher">Get voucher</a><br>
+<a href="/logout">Log out</a><br>
+
+<form name="logoutForm" th:action="@{/logout}" method="post">
+    <input type="submit" value="Log out" />
+</form>
+
+
+</body>
+</html>
